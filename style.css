@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500;1,900&display=swap');
+
+h1 {
+    color: deeppink;
+    background-color: white;
+}
+h2{
+    color: black;
+}
+p{
+    color: black;
+}
+body{
+    background-color: deeppink;
+    text-align: center;
+    margin: 0;
+
+}
+#avatar{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    
+}
+div{
+    background-color: white;
+	width: 55%;
+    padding: 24px;
+    margin: 24px    auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 1px 4px 7px 2px #00000087;
+ 
+}
+
+a{
+    text-decoration: none;
+
+}
+h1, h2, a{
+    font-family: 'Roboto', sans-serif;
+
+}
+.btn-blue {
+    color: white;
+    background-color: black;
+    padding: 16px;
+    border-radius: 7px;
+    font-weight: bold;
+    border: 1px solid deeppink;  
+}
+.btn-blue:hover
+{
+    background-color: white;
+    color: deeppink;
+    transition: 1s; 
+}
+.card-white {
+    background-color: white;
+    width: 55%;
+    padding: 24px;
+    margin: 24px auto;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0px 1px 8px 2px #000000bd   
+}
+.list-inline>li {
+    display: inline;
+}
+
+.list-inline {
+    padding: 0;
+}
+.list-inline a {
+    font-size: 48px;
+    color: rgba{0, 0, 0, 0.4}
+
+}
+.list-inline a;hover {
+    color: black;
+}

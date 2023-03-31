@@ -1,0 +1,16 @@
+.btn-blue{
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 7px;
+    padding: 16px;
+    border: 1px solid whitesmoke;
+    width: 10%;
+    text-align: center;
+    margin: 24px auto;
+}
+.btn-blue:hover {
+    background-color: white;
+    color: grey;
+    transition: 1s;
+
+}
